@@ -4,8 +4,8 @@ import mu.KLogging
 import java.io.File
 
 data class Config(
-    val token: String,// = "MTA5MjIzODg2NTQzMzEwMDMxOA.GW7zv8.F3lor6lfqaDaorx6TX1e0NXkPoHcCEPIyPrvqc",
-    val directory: File// = File("E:\\BackgroundMusic")
+    val token: String,
+    val directory: File
 ) {
     companion object : KLogging() {
         fun config(vararg params: String): Config =
